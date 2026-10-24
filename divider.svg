@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" role="presentation">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00d4ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7c4dff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gl" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="11" width="900" height="2" fill="url(#line)"/>
+  <circle cy="12" r="4" fill="#00ffa3" filter="url(#gl)">
+    <animate attributeName="cx" values="0;900" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="440" y="6" width="20" height="12" rx="2" fill="none" stroke="#00d4ff" stroke-width="1.5" transform="rotate(45 450 12)">
+    <animateTransform attributeName="transform" type="rotate" from="45 450 12" to="405 450 12" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
