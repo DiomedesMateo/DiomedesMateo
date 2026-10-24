@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Feed de alertas simulado">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#0f1a2e"/><stop offset="1" stop-color="#0b1220"/>
+    </radialGradient>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="340" rx="16"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="340" fill="url(#vig)"/>
+    <rect width="900" height="340" fill="url(#grid)"/>
+<text x="34" y="40" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" letter-spacing="3" fill="#f43f5e">▍ 04 · ALERTAS</text>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" letter-spacing="2">
+      <rect x="788" y="24" width="78" height="24" rx="12" fill="#f43f5e" fill-opacity="0.1" stroke="#f43f5e" stroke-opacity="0.7"/>
+      <circle cx="806" cy="36" r="4" fill="#f43f5e"><animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/></circle>
+      <text x="816" y="40" fill="#f43f5e">LIVE</text>
+    </g>
+    <g transform="translate(34 70)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.000;0.030;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#f43f5e"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#f43f5e" fill-opacity="0.14" stroke="#f43f5e" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#f43f5e">CRIT</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">SSH brute-force</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:46:12 · 203.0.113.7</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#34d399">BLOCKED</text>
+    </g>
+    <g transform="translate(462 70)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.039;0.069;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#fb923c"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#fb923c">HIGH</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Port scan detected</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:44:03 · 198.51.100.23</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#34d399">BLOCKED</text>
+    </g>
+    <g transform="translate(34 148)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.078;0.108;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#fbbf24"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#fbbf24">MED</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Login from unusual geo</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:41:37 · 203.0.113.45</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#34d399">MFA ENFORCED</text>
+    </g>
+    <g transform="translate(462 148)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.117;0.147;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#22d3ee"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#22d3ee">LOW</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">DNS query spike</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:38:20 · 10.0.0.14</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#94a3b8">MONITORING</text>
+    </g>
+    <g transform="translate(34 226)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.156;0.186;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#fb923c"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#fb923c">HIGH</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Ticket spam flood</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:35:55 · user#4821</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#34d399">TIMEOUT</text>
+    </g>
+    <g transform="translate(462 226)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.194;0.224;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <rect width="414" height="66" rx="12" fill="#0b1220" stroke="#1c2b47"/>
+      <rect width="5" height="66" rx="2.5" fill="#fbbf24"/>
+      <rect x="18" y="14" width="46" height="20" rx="10" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
+      <text x="41.0" y="28" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#fbbf24">MED</text>
+      <text x="78" y="29" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">RCON auth failed</text>
+      <text x="18" y="54" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" fill="#64748b">02:31:09 · 203.0.113.99</text>
+      <text x="398" y="54" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#34d399">BANNED</text>
+    </g><text x="866" y="320" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" fill="#475569">simulated feed · IPs from documentation ranges</text>    <path d="M10 30 V10 H30 M870 10 H890 V30 M890 310 V330 H870 M30 330 H10 V310" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-opacity="0.8"><animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/></path>
+    <rect x="0.75" y="0.75" width="898.5" height="338.5" rx="15.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Capacidades">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#0f1a2e"/><stop offset="1" stop-color="#0b1220"/>
+    </radialGradient>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="330" rx="16"/></clipPath>
+    
+    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="gG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="330" fill="url(#vig)"/>
+    <rect width="900" height="330" fill="url(#grid)"/>
+<text x="34" y="40" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" letter-spacing="3" fill="#22d3ee">▍ 02 · CAPACIDADES</text><text x="34" y="86" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#22d3ee">DETECTION &amp; ANALYSIS</text>
+    <text x="34" y="124" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">Log analysis</text>
+    <text x="426" y="124" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#22d3ee">75%</text>
+    <rect x="34" y="134" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="34" y="134" height="8" rx="4" fill="url(#gB)">
+      <animate attributeName="width" values="0;0;294;294;0" keyTimes="0;0.02;0.19;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="34" y="176" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">Wireshark</text>
+    <text x="426" y="176" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#22d3ee">70%</text>
+    <rect x="34" y="186" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="34" y="186" height="8" rx="4" fill="url(#gB)">
+      <animate attributeName="width" values="0;0;274;274;0" keyTimes="0;0.05;0.22;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="34" y="228" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">SIEM</text>
+    <text x="426" y="228" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#22d3ee">65%</text>
+    <rect x="34" y="238" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="34" y="238" height="8" rx="4" fill="url(#gB)">
+      <animate attributeName="width" values="0;0;255;255;0" keyTimes="0;0.08;0.25;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="34" y="280" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">Incident response</text>
+    <text x="426" y="280" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#22d3ee">60%</text>
+    <rect x="34" y="290" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="34" y="290" height="8" rx="4" fill="url(#gB)">
+      <animate attributeName="width" values="0;0;235;235;0" keyTimes="0;0.11;0.28;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect><text x="474" y="86" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#34d399">DEVELOPMENT</text>
+    <text x="474" y="124" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">Python</text>
+    <text x="866" y="124" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#34d399">90%</text>
+    <rect x="474" y="134" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="474" y="134" height="8" rx="4" fill="url(#gG)">
+      <animate attributeName="width" values="0;0;353;353;0" keyTimes="0;0.02;0.19;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="474" y="176" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">discord.py</text>
+    <text x="866" y="176" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#34d399">85%</text>
+    <rect x="474" y="186" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="474" y="186" height="8" rx="4" fill="url(#gG)">
+      <animate attributeName="width" values="0;0;333;333;0" keyTimes="0;0.05;0.22;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="474" y="228" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">SQLite · aiosqlite</text>
+    <text x="866" y="228" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#34d399">75%</text>
+    <rect x="474" y="238" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="474" y="238" height="8" rx="4" fill="url(#gG)">
+      <animate attributeName="width" values="0;0;294;294;0" keyTimes="0;0.08;0.25;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="474" y="280" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e2e8f0">Java · JavaScript</text>
+    <text x="866" y="280" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#34d399">55%</text>
+    <rect x="474" y="290" width="392" height="8" rx="4" fill="#162238"/>
+    <rect x="474" y="290" height="8" rx="4" fill="url(#gG)">
+      <animate attributeName="width" values="0;0;216;216;0" keyTimes="0;0.11;0.28;0.93;1" dur="10s" repeatCount="indefinite"/>
+    </rect><line x1="450" y1="70" x2="450" y2="294" stroke="#1c2b47"/><text x="866" y="318" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="10" fill="#475569">self-assessed · always improving</text>    <path d="M10 30 V10 H30 M870 10 H890 V30 M890 300 V320 H870 M30 320 H10 V300" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-opacity="0.8"><animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/></path>
+    <rect x="0.75" y="0.75" width="898.5" height="328.5" rx="15.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+  </g>
+</svg>
