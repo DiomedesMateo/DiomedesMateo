@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-label="Topología de red: tráfico hostil bloqueado por el firewall, telemetría hacia el SIEM y el analista">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="350" rx="14"/></clipPath>
+    <path id="pAtk" d="M140 110 C 190 110, 190 160, 240 160"/>
+    <path id="pNet" d="M140 238 C 190 238, 190 182, 240 182"/>
+    <path id="pSiem" d="M360 160 C 410 160, 410 100, 460 100"/>
+    <path id="pSrv" d="M360 182 C 410 182, 410 244, 460 244"/>
+    <path id="pAn1" d="M580 100 C 650 100, 650 160, 680 160"/>
+    <path id="pAn2" d="M580 244 C 650 244, 650 182, 680 182"/>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="350" fill="#0b1220"/>
+    <rect width="900" height="350" fill="url(#grid)"/>
+
+    <rect width="900" height="40" fill="#0f1a2e"/>
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#1c2b47"/>
+    <text x="22" y="25" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#94a3b8">NETWORK TOPOLOGY · LIVE TRAFFIC</text>
+    <circle cx="768" cy="20" r="3.5" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/></circle>
+    <text x="780" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="1" fill="#34d399">STREAMING</text>
+
+    <!-- Enlaces -->
+    <g fill="none" stroke-width="2" stroke-dasharray="6 6">
+      <use href="#pAtk" stroke="#f43f5e" stroke-opacity="0.55"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="0.8s" repeatCount="indefinite"/></use>
+      <use href="#pNet" stroke="#22d3ee" stroke-opacity="0.5"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.1s" repeatCount="indefinite"/></use>
+      <use href="#pSiem" stroke="#a78bfa" stroke-opacity="0.55"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.1s" repeatCount="indefinite"/></use>
+      <use href="#pSrv" stroke="#34d399" stroke-opacity="0.55"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.1s" repeatCount="indefinite"/></use>
+      <use href="#pAn1" stroke="#a78bfa" stroke-opacity="0.55"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.1s" repeatCount="indefinite"/></use>
+      <use href="#pAn2" stroke="#34d399" stroke-opacity="0.55"><animate attributeName="stroke-dashoffset" from="12" to="0" dur="1.1s" repeatCount="indefinite"/></use>
+    </g>
+
+    <!-- Paquetes hostiles -->
+    <circle r="4.5" fill="#f43f5e" filter="url(#soft)">
+      <animateMotion dur="3s" repeatCount="indefinite"><mpath href="#pAtk"/></animateMotion>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.9;0.93;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5" fill="#f43f5e" filter="url(#soft)">
+      <animateMotion dur="3s" begin="1s" repeatCount="indefinite"><mpath href="#pAtk"/></animateMotion>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.9;0.93;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5" fill="#f43f5e" filter="url(#soft)">
+      <animateMotion dur="3s" begin="2s" repeatCount="indefinite"><mpath href="#pAtk"/></animateMotion>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.9;0.93;1" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Tráfico legítimo -->
+    <circle r="3.5" fill="#22d3ee" filter="url(#soft)"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#pNet"/></animateMotion></circle>
+    <circle r="3.5" fill="#22d3ee" filter="url(#soft)"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#pNet"/></animateMotion></circle>
+    <circle r="3.5" fill="#e2e8f0" filter="url(#soft)"><animateMotion dur="2.4s" begin="0.4s" repeatCount="indefinite"><mpath href="#pSrv"/></animateMotion></circle>
+    <circle r="3.5" fill="#e2e8f0" filter="url(#soft)"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#pSrv"/></animateMotion></circle>
+
+    <!-- Telemetría -->
+    <circle r="3.5" fill="#a78bfa" filter="url(#soft)"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#pSiem"/></animateMotion></circle>
+    <circle r="3.5" fill="#a78bfa" filter="url(#soft)"><animateMotion dur="2.2s" begin="1.1s" repeatCount="indefinite"><mpath href="#pSiem"/></animateMotion></circle>
+    <circle r="3.5" fill="#a78bfa" filter="url(#soft)"><animateMotion dur="2s" begin="0.3s" repeatCount="indefinite"><mpath href="#pAn1"/></animateMotion></circle>
+    <circle r="3.5" fill="#34d399" filter="url(#soft)"><animateMotion dur="2s" begin="0.8s" repeatCount="indefinite"><mpath href="#pAn2"/></animateMotion></circle>
+
+    <!-- Aviso de bloqueo -->
+    <g font-family="'SFMono-Regular',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f43f5e" text-anchor="middle">
+      <text x="300" y="132">✕ BLOCKED
+        <animate attributeName="opacity" values="0;0;1;1;0;1;0" keyTimes="0;0.2;0.25;0.5;0.55;0.6;1" dur="3s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Nodos -->
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" text-anchor="middle">
+      <!-- Atacante -->
+      <rect x="20" y="87" width="120" height="46" rx="8" fill="#0f1a2e" stroke="#f43f5e"/>
+      <text x="80" y="107" font-size="12" font-weight="700" fill="#f43f5e">ATTACKER</text>
+      <text x="80" y="122" font-size="9" fill="#64748b">203.0.113.7 · hostile</text>
+
+      <!-- Internet -->
+      <rect x="20" y="215" width="120" height="46" rx="8" fill="#0f1a2e" stroke="#22d3ee"/>
+      <text x="80" y="235" font-size="12" font-weight="700" fill="#22d3ee">INTERNET</text>
+      <text x="80" y="250" font-size="9" fill="#64748b">legit traffic</text>
+
+      <!-- Firewall -->
+      <rect x="240" y="147" width="120" height="58" rx="8" fill="#0f1a2e" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="300" y="171" font-size="12" font-weight="700" fill="#fbbf24">FIREWALL</text>
+      <text x="300" y="187" font-size="9" fill="#64748b">policy enforce</text>
+
+      <!-- SIEM -->
+      <rect x="460" y="77" width="120" height="46" rx="8" fill="#0f1a2e" stroke="#a78bfa"/>
+      <text x="520" y="97" font-size="12" font-weight="700" fill="#a78bfa">SIEM</text>
+      <text x="520" y="112" font-size="9" fill="#64748b">correlation · alerts</text>
+
+      <!-- Servidor / bot -->
+      <rect x="460" y="221" width="120" height="46" rx="8" fill="#0f1a2e" stroke="#34d399"/>
+      <text x="520" y="241" font-size="12" font-weight="700" fill="#34d399">MINEORBIT</text>
+      <text x="520" y="256" font-size="9" fill="#64748b">server + discord bot</text>
+
+      <!-- Analista -->
+      <rect x="680" y="147" width="120" height="58" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-width="1.8"/>
+      <text x="740" y="171" font-size="12" font-weight="700" fill="#22d3ee">ANALYST</text>
+      <text x="740" y="187" font-size="9" fill="#94a3b8">Diomedes · triage</text>
+    </g>
+
+    <!-- Leyenda -->
+    <g font-family="'SFMono-Regular',Consolas,monospace" font-size="10" fill="#94a3b8" letter-spacing="1">
+      <circle cx="26" cy="324" r="4" fill="#f43f5e"/><text x="38" y="328">hostile</text>
+      <circle cx="108" cy="324" r="4" fill="#22d3ee"/><text x="120" y="328">traffic</text>
+      <circle cx="190" cy="324" r="4" fill="#a78bfa"/><text x="202" y="328">telemetry</text>
+      <circle cx="285" cy="324" r="4" fill="#34d399"/><text x="297" y="328">services</text>
+      <text x="876" y="328" text-anchor="end" fill="#475569">simulated topology</text>
+    </g>
+
+    <rect x="0.75" y="0.75" width="898.5" height="348.5" rx="13.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+  </g>
+</svg>

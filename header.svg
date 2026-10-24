@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290" role="img" aria-label="Diomedes Mateo · SOC Console · Blue Team Student, SOC Mindset, Discord Bot Dev">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#a78bfa;#34d399;#22d3ee" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="290" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="290" fill="#0b1220"/>
+    <rect width="900" height="290" fill="url(#grid)"/>
+    <rect x="0" y="0" width="900" height="2" fill="#22d3ee" opacity="0.25">
+      <animate attributeName="y" values="40;290" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra superior -->
+    <rect width="900" height="40" fill="#0f1a2e"/>
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#1c2b47"/>
+    <polygon points="30,9 39,14.5 39,25.5 30,31 21,25.5 21,14.5" fill="none" stroke="#22d3ee" stroke-width="1.6"/>
+    <circle cx="30" cy="20" r="3" fill="#22d3ee">
+      <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="52" y="25" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#94a3b8">DIOMEDES // SOC-CONSOLE</text>
+
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1">
+      <rect x="668" y="11" width="62" height="18" rx="9" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.6"/>
+      <circle cx="681" cy="20" r="3" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="690" y="24" fill="#34d399">LIVE</text>
+
+      <rect x="738" y="11" width="52" height="18" rx="9" fill="none" stroke="#1c2b47"/>
+      <text x="764" y="24" text-anchor="middle" fill="#94a3b8">24/7</text>
+
+      <rect x="798" y="11" width="82" height="18" rx="9" fill="none" stroke="#1c2b47"/>
+      <text x="839" y="24" text-anchor="middle" fill="#94a3b8">TLP:CLEAR</text>
+    </g>
+
+    <!-- Anillo decorativo -->
+    <g transform="translate(775 112)">
+      <circle r="52" fill="none" stroke="#1c2b47" stroke-width="1"/>
+      <circle r="44" fill="none" stroke="url(#ring)" stroke-width="2" stroke-dasharray="40 24 8 24" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="32" fill="none" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="3 7">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="20" fill="#22d3ee" fill-opacity="0.07"/>
+      <text y="-1" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="15" font-weight="700" fill="#22d3ee" filter="url(#soft)">SOC</text>
+      <text y="13" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#94a3b8">ARMED</text>
+    </g>
+
+    <!-- Nombre con glitch ocasional -->
+    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="52" letter-spacing="1.5">
+      <text x="56" y="108" fill="#f43f5e" opacity="0">DIOMEDES MATEO
+        <animate attributeName="opacity" values="0;0;0.75;0;0.75;0;0" keyTimes="0;0.9;0.92;0.94;0.96;0.98;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="64" y="108" fill="#22d3ee" opacity="0">DIOMEDES MATEO
+        <animate attributeName="opacity" values="0;0;0.75;0;0.75;0;0" keyTimes="0;0.9;0.92;0.94;0.96;0.98;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="60" y="108" fill="url(#name)" filter="url(#glow)">DIOMEDES MATEO</text>
+    </g>
+
+    <text x="60" y="138" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#94a3b8" letter-spacing="1">Blue Team Student  ·  SOC Mindset  ·  Discord Bot Dev</text>
+
+    <rect x="60" y="150" height="2" rx="1" fill="#22d3ee" filter="url(#soft)">
+      <animate attributeName="width" values="0;420;420;0" keyTimes="0;0.4;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- KPI 1 -->
+    <g transform="translate(21 176)">
+      <rect width="204" height="92" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+      <rect width="3" height="92" rx="1.5" fill="#22d3ee"/>
+      <text x="18" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="2" fill="#64748b">MODE</text>
+      <text x="18" y="48" font-family="'SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" fill="#22d3ee">BLUE TEAM</text>
+      <g transform="translate(18 60)">
+        <path d="M0 22 L22 16 L44 20 L66 8 L88 14 L110 5 L132 11 L154 3 L170 8" pathLength="1" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1" stroke-dashoffset="1">
+          <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.5;0.9;1" dur="5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <!-- KPI 2 -->
+    <g transform="translate(239 176)">
+      <rect width="204" height="92" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+      <rect width="3" height="92" rx="1.5" fill="#a78bfa"/>
+      <text x="18" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="2" fill="#64748b">FOCUS</text>
+      <text x="18" y="48" font-family="'SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" fill="#a78bfa">DETECT·RESPOND</text>
+      <g transform="translate(18 60)">
+        <path d="M0 18 L22 20 L44 10 L66 14 L88 6 L110 12 L132 4 L154 9 L170 2" pathLength="1" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1" stroke-dashoffset="1">
+          <animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.1;0.6;0.9;1" dur="5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <!-- KPI 3 -->
+    <g transform="translate(457 176)">
+      <rect width="204" height="92" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+      <rect width="3" height="92" rx="1.5" fill="#34d399"/>
+      <text x="18" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="2" fill="#64748b">BUILDING</text>
+      <text x="18" y="48" font-family="'SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" fill="#34d399">DISCORD BOTS</text>
+      <g transform="translate(18 60)">
+        <path d="M0 20 L22 12 L44 17 L66 7 L88 15 L110 6 L132 13 L154 4 L170 10" pathLength="1" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1" stroke-dashoffset="1">
+          <animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.2;0.7;0.9;1" dur="5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <!-- KPI 4 -->
+    <g transform="translate(675 176)">
+      <rect width="204" height="92" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+      <rect width="3" height="92" rx="1.5" fill="#fbbf24"/>
+      <text x="18" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="2" fill="#64748b">STATUS</text>
+      <text x="18" y="48" font-family="'SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" fill="#fbbf24">LEARNING 24/7</text>
+      <g transform="translate(18 60)">
+        <path d="M0 16 L22 18 L44 12 L66 15 L88 8 L110 10 L132 5 L154 6 L170 1" pathLength="1" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1" stroke-dashoffset="1">
+          <animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.3;0.8;0.9;1" dur="5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <rect x="0.75" y="0.75" width="898.5" height="288.5" rx="13.5" fill="none" stroke="#22d3ee" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

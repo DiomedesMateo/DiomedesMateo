@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="214" viewBox="0 0 900 214" role="img" aria-label="Inventario de juegos: favorito Cult of the Lamb, además Hollow Knight, Silksong, Celeste, Cuphead, FNAF, Nuclear Throne y Minecraft">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="fav" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="214" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="214" fill="#0b1220"/>
+    <rect width="900" height="214" fill="url(#grid)"/>
+
+    <rect width="900" height="40" fill="#0f1a2e"/>
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#1c2b47"/>
+    <text x="22" y="25" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#94a3b8">ASSET INVENTORY · GAMES</text>
+
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
+      <!-- Favorito -->
+      <rect x="20" y="58" width="270" height="136" rx="12" fill="url(#fav)" stroke="#f43f5e" stroke-opacity="0.8" stroke-width="1.5">
+        <animate attributeName="stroke-opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="40" y="92" font-size="10" letter-spacing="2.5" fill="#f43f5e">★ FAVORITE</text>
+      <text x="40" y="128" font-size="22" font-weight="700" fill="#e2e8f0">Cult of the</text>
+      <text x="40" y="154" font-size="22" font-weight="700" fill="#e2e8f0">Lamb</text>
+      <circle cx="262" cy="86" r="4" fill="#f43f5e" filter="url(#soft)"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="40" y="180" font-size="10" letter-spacing="1.5" fill="#94a3b8">status: always installed</text>
+
+      <!-- Fila 1 -->
+      <g font-size="13" fill="#e2e8f0">
+        <rect x="312" y="58" width="132" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="312" y="58" width="4" height="62" rx="2" fill="#94a3b8"/>
+        <text x="330" y="86">Hollow Knight</text>
+        <circle cx="332" cy="102" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+        <text x="342" y="105" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+
+        <rect x="452" y="58" width="132" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="452" y="58" width="4" height="62" rx="2" fill="#a78bfa"/>
+        <text x="470" y="86">Silksong</text>
+        <circle cx="472" cy="102" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+        <text x="482" y="105" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+
+        <rect x="592" y="58" width="132" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="592" y="58" width="4" height="62" rx="2" fill="#ec4899"/>
+        <text x="610" y="86">Celeste</text>
+        <circle cx="612" cy="102" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+        <text x="622" y="105" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+
+        <rect x="732" y="58" width="148" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="732" y="58" width="4" height="62" rx="2" fill="#fbbf24"/>
+        <text x="750" y="86">Cuphead</text>
+        <circle cx="752" cy="102" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+        <text x="762" y="105" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+      </g>
+
+      <!-- Fila 2 -->
+      <g font-size="13" fill="#e2e8f0">
+        <rect x="312" y="132" width="220" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="312" y="132" width="4" height="62" rx="2" fill="#f43f5e"/>
+        <text x="330" y="160">Five Nights at Freddy's</text>
+        <circle cx="332" cy="176" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+        <text x="342" y="179" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+
+        <rect x="544" y="132" width="150" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="544" y="132" width="4" height="62" rx="2" fill="#84cc16"/>
+        <text x="562" y="160">Nuclear Throne</text>
+        <circle cx="564" cy="176" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle>
+        <text x="574" y="179" font-size="9" letter-spacing="1" fill="#64748b">ONLINE</text>
+
+        <rect x="706" y="132" width="174" height="62" rx="10" fill="#0f1a2e" stroke="#1c2b47"/>
+        <rect x="706" y="132" width="4" height="62" rx="2" fill="#34d399"/>
+        <text x="724" y="160">Minecraft</text>
+        <circle cx="726" cy="176" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+        <text x="736" y="179" font-size="9" letter-spacing="1" fill="#64748b">ONLINE · MINEORBIT</text>
+      </g>
+    </g>
+
+    <rect x="0.75" y="0.75" width="898.5" height="212.5" rx="13.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+  </g>
+</svg>
