@@ -67,15 +67,24 @@ También desarrollo **bots de Discord** para comunidades de Minecraft (tickets, 
 ### 📊 Estadísticas
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DiomedesMateo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a192f&title_color=00d4ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=00d4ff"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiomedesMateo&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0a192f&title_color=00d4ff&text_color=c9d1d9"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=true&background=0a192f&border=00d4ff&stroke=58a6ff&ring=00d4ff&fire=00d4ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00d4ff&dates=8b949e" alt="Streak"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=DiomedesMateo&show_icons=true&theme=tokyonight&hide_border=false&border_radius=15&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d&ring_color=58a6ff"/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiomedesMateo&layout=compact&langs_count=6&theme=tokyonight&hide_border=false&border_radius=15&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
+
 </div>
 
 <br>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=false&border_radius=15&background=0d1117&border=30363d&stroke=58a6ff&ring=79c0ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="Streak"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DiomedesMateo&theme=tokyo-night&hide_border=false&area=true&custom_title=Actividad%20de%20contribuciones&bg_color=0d1117&color=58a6ff&line=79c0ff&point=ffffff"/>
+</div>
 
 ### 📬 Contacto
 
