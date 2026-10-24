@@ -1,230 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Feed de alertas SOC simulado">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Alert feed">
   <defs>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.05"/>
-    </pattern>
-    <linearGradient id="fadeTop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeBot" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="frame"><rect width="900" height="340" rx="14"/></clipPath>
-    <clipPath id="vis"><rect x="0" y="78" width="900" height="248"/></clipPath>
+    <clipPath id="frame"><rect width="900" height="280" rx="16"/></clipPath>
   </defs>
-
   <g clip-path="url(#frame)">
-    <rect width="900" height="340" fill="#0b1220"/>
-    <rect width="900" height="340" fill="url(#grid)"/>
+    <rect width="900" height="280" fill="#0b1220"/>
+    <rect width="900" height="36" fill="#0f1a2e"/>
+    <text x="24" y="24" font-family="'SF Mono', Consolas, monospace" font-size="12" letter-spacing="2" fill="#94a3b8">ALERT FEED · INCIDENT QUEUE</text>
+    <circle cx="820" cy="18" r="5" fill="#f43f5e">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="835" y="22" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#f43f5e">TRIAGE</text>
 
-    <rect width="900" height="40" fill="#0f1a2e"/>
-    <line x1="0" y1="40" x2="900" y2="40" stroke="#1c2b47"/>
-    <text x="22" y="25" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2.5" fill="#94a3b8">ALERT FEED · INCIDENT QUEUE</text>
-    <circle cx="772" cy="20" r="3.5" fill="#f43f5e"><animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/></circle>
-    <text x="784" y="24" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1" fill="#f43f5e">TRIAGE</text>
+    <!-- Alert rows -->
+    <g font-family="'Segoe UI', system-ui, sans-serif" font-size="13">
+      <rect x="20" y="55" width="860" height="36" rx="8" fill="#0f1a2e"/>
+      <text x="36" y="78" fill="#64748b">02:46</text>
+      <rect x="90" y="64" width="48" height="18" rx="9" fill="#f43f5e" fill-opacity="0.2"/>
+      <text x="114" y="77" text-anchor="middle" fill="#f43f5e" font-size="11" font-weight="700">CRIT</text>
+      <text x="155" y="78" fill="#e2e8f0">SSH brute-force (rule 5710)</text>
+      <text x="750" y="78" text-anchor="end" fill="#34d399" font-weight="600">BLOCKED</text>
 
-    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2" fill="#475569">
-      <text x="24" y="64">TIME</text>
-      <text x="118" y="64">SEV</text>
-      <text x="200" y="64">DETECTION</text>
-      <text x="560" y="64">SOURCE</text>
-      <text x="876" y="64" text-anchor="end">ACTION</text>
-    </g>
-    <line x1="16" y1="76" x2="884" y2="76" stroke="#1c2b47"/>
+      <rect x="20" y="100" width="860" height="36" rx="8" fill="#0f1a2e"/>
+      <text x="36" y="123" fill="#64748b">02:44</text>
+      <rect x="90" y="109" width="48" height="18" rx="9" fill="#fb923c" fill-opacity="0.2"/>
+      <text x="114" y="122" text-anchor="middle" fill="#fb923c" font-size="11" font-weight="700">HIGH</text>
+      <text x="155" y="123" fill="#e2e8f0">Port scan detected</text>
+      <text x="750" y="123" text-anchor="end" fill="#34d399" font-weight="600">BLOCKED</text>
 
-    <g clip-path="url(#vis)">
-      <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
-        <g>
-          
-    <g transform="translate(0 0)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:46:12</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#f43f5e" fill-opacity="0.14" stroke="#f43f5e" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#f43f5e">CRIT</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">SSH brute-force (rule 5710)</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.7</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BLOCKED</text>
-    </g>
-    <g transform="translate(0 36)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:44:03</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Port scan detected</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">198.51.100.23</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BLOCKED</text>
-    </g>
-    <g transform="translate(0 72)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:41:37</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Login from unusual geo</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.45</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">MFA ENFORCED</text>
-    </g>
-    <g transform="translate(0 108)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:38:20</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#22d3ee">LOW</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Unusual DNS query rate</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">10.0.0.14</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">MONITORING</text>
-    </g>
-    <g transform="translate(0 144)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:35:55</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Spam flood in ticket channel</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">user#4821</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">TIMEOUT</text>
-    </g>
-    <g transform="translate(0 180)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:31:09</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Failed RCON authentication</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.99</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BANNED</text>
-    </g>
-    <g transform="translate(0 216)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:28:41</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#64748b" fill-opacity="0.14" stroke="#64748b" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#64748b">INFO</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Bot heartbeat OK</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">mineorbit-bot</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">NO ACTION</text>
-    </g>
-    <g transform="translate(0 252)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:24:16</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#22d3ee">LOW</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Discord API rate limit hit</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">api.discord</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">RETRY</text>
-    </g>
-    <g transform="translate(0 288)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:20:02</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Malformed packet burst</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">198.51.100.77</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">DROPPED</text>
-    </g>
-    <g transform="translate(0 324)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:15:48</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">New staff role granted</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">staff-log</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">REVIEWED</text>
-    </g>
-          <g transform="translate(0 360)">
-    <g transform="translate(0 0)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:46:12</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#f43f5e" fill-opacity="0.14" stroke="#f43f5e" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#f43f5e">CRIT</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">SSH brute-force (rule 5710)</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.7</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BLOCKED</text>
-    </g>
-    <g transform="translate(0 36)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:44:03</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Port scan detected</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">198.51.100.23</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BLOCKED</text>
-    </g>
-    <g transform="translate(0 72)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:41:37</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Login from unusual geo</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.45</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">MFA ENFORCED</text>
-    </g>
-    <g transform="translate(0 108)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:38:20</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#22d3ee">LOW</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Unusual DNS query rate</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">10.0.0.14</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">MONITORING</text>
-    </g>
-    <g transform="translate(0 144)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:35:55</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Spam flood in ticket channel</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">user#4821</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">TIMEOUT</text>
-    </g>
-    <g transform="translate(0 180)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:31:09</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Failed RCON authentication</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">203.0.113.99</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">BANNED</text>
-    </g>
-    <g transform="translate(0 216)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:28:41</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#64748b" fill-opacity="0.14" stroke="#64748b" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#64748b">INFO</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Bot heartbeat OK</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">mineorbit-bot</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">NO ACTION</text>
-    </g>
-    <g transform="translate(0 252)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:24:16</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#22d3ee">LOW</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Discord API rate limit hit</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">api.discord</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">RETRY</text>
-    </g>
-    <g transform="translate(0 288)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:20:02</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fb923c" fill-opacity="0.14" stroke="#fb923c" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fb923c">HIGH</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">Malformed packet burst</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">198.51.100.77</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#34d399">DROPPED</text>
-    </g>
-    <g transform="translate(0 324)">
-      <line x1="16" y1="36" x2="884" y2="36" stroke="#1c2b47" stroke-opacity="0.6"/>
-      <text x="24" y="22" font-size="12" fill="#64748b">02:15:48</text>
-      <rect x="116" y="8" width="52" height="19" rx="9.5" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.7"/>
-      <text x="142" y="21.5" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#fbbf24">MED</text>
-      <text x="200" y="22" font-size="13" fill="#e2e8f0">New staff role granted</text>
-      <text x="560" y="22" font-size="12" fill="#94a3b8">staff-log</text>
-      <text x="876" y="22" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" fill="#94a3b8">REVIEWED</text>
-    </g></g>
-          <animateTransform attributeName="transform" type="translate" from="0 78" to="0 -282" dur="26s" repeatCount="indefinite"/>
-        </g>
-      </g>
-      <rect x="0" y="78" width="900" height="22" fill="url(#fadeTop)"/>
-      <rect x="0" y="304" width="900" height="22" fill="url(#fadeBot)"/>
-    </g>
+      <rect x="20" y="145" width="860" height="36" rx="8" fill="#0f1a2e"/>
+      <text x="36" y="168" fill="#64748b">02:41</text>
+      <rect x="90" y="154" width="48" height="18" rx="9" fill="#fbbf24" fill-opacity="0.2"/>
+      <text x="114" y="167" text-anchor="middle" fill="#fbbf24" font-size="11" font-weight="700">MED</text>
+      <text x="155" y="168" fill="#e2e8f0">Login from unusual geo</text>
+      <text x="750" y="168" text-anchor="end" fill="#34d399" font-weight="600">MFA ENFORCED</text>
 
-    <text x="878" y="332" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#475569">simulated feed · IPs from documentation ranges</text>
-    <rect x="0.75" y="0.75" width="898.5" height="338.5" rx="13.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+      <rect x="20" y="190" width="860" height="36" rx="8" fill="#0f1a2e"/>
+      <text x="36" y="213" fill="#64748b">02:35</text>
+      <rect x="90" y="199" width="48" height="18" rx="9" fill="#fb923c" fill-opacity="0.2"/>
+      <text x="114" y="212" text-anchor="middle" fill="#fb923c" font-size="11" font-weight="700">HIGH</text>
+      <text x="155" y="213" fill="#e2e8f0">Spam flood in ticket channel</text>
+      <text x="750" y="213" text-anchor="end" fill="#34d399" font-weight="600">TIMEOUT</text>
+
+      <rect x="20" y="235" width="860" height="36" rx="8" fill="#0f1a2e"/>
+      <text x="36" y="258" fill="#64748b">02:31</text>
+      <rect x="90" y="244" width="48" height="18" rx="9" fill="#fbbf24" fill-opacity="0.2"/>
+      <text x="114" y="257" text-anchor="middle" fill="#fbbf24" font-size="11" font-weight="700">MED</text>
+      <text x="155" y="258" fill="#e2e8f0">Failed RCON authentication</text>
+      <text x="750" y="258" text-anchor="end" fill="#34d399" font-weight="600">BANNED</text>
+    </g>
+    <rect x="1" y="1" width="898" height="278" rx="15" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
   </g>
 </svg>
