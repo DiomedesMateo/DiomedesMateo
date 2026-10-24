@@ -1,10 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0f172a,100:22d3ee&height=240&section=header&text=Diomedes%20Mateo&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=Blue%20Team%20Student%20%7C%20SOC%20Mindset&descAlignY=55&descSize=22&fontAlign=50&stroke=22d3ee&strokeWidth=1"/>
+  <img src="./banner.svg" alt="Diomedes Mateo · Blue Team Student · SOC Mindset · Discord Bot Dev" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=800&color=22D3EE&center=true&vCenter=true&width=650&lines=Detectar+%E2%80%A2+Responder+%E2%80%A2+Proteger+24%2F7;An%C3%A1lisis+de+logs+%7C+Wireshark+%7C+SIEM;Discord+Bot+Developer+%7C+Minecraft" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Detectar%2C+responder+y+proteger+24%2F7;An%C3%A1lisis+de+logs+%7C+Wireshark+%7C+SIEM;Discord+Bot+Developer+%7C+Minecraft+Communities;Cada+alerta+cuenta.+Cada+log+habla." alt="Typing SVG"/>
 </div>
+
+<br>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Blue_Team-00d4ff?style=for-the-badge&logo=shield&logoColor=white" alt="Blue Team"/>
@@ -17,41 +19,52 @@
 
 <br>
 
-### 🛡️ Sobre mí
+<div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
 
-Estudiante de **ciberseguridad** enfocado en **Blue Team**.
+## 🛡️ Sobre mí
 
-Trabajo con mentalidad **SOC**: análisis de logs, Wireshark, SIEM y respuesta a incidentes.  
-**Detectar, responder y proteger 24/7.**
+Estudiante de **ciberseguridad** enfocado en **Blue Team**. Trabajo con mentalidad **SOC**: análisis de logs, Wireshark, SIEM y respuesta a incidentes.
 
-También desarrollo **bots de Discord** para comunidades de Minecraft (tickets, moderación, economía, niveles y herramientas de staff) usando Python + `discord.py`.
+También desarrollo **bots de Discord** para comunidades de Minecraft: tickets, moderación, economía, niveles y herramientas de staff, con Python + `discord.py`.
 
-- 🔵 Enfoque principal en defensa y detección
-- 🎮 Desarrollo de herramientas para comunidades de Minecraft
-- 🛠️ Automatización, bases de datos y lógica compleja
+| | |
+|---|---|
+| 🔵 **Enfoque** | Defensa y detección |
+| 🎮 **Comunidades** | Herramientas para servidores de Minecraft |
+| 🛠️ **Me muevo en** | Automatización, bases de datos y lógica compleja |
 
-<br>
+<div align="center">
+  <img src="./terminal.svg" alt="Terminal SOC animada" width="85%"/>
+</div>
 
-### 🛠️ Stack
+<div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
 
-| Área              | Tecnologías                          |
-|-------------------|--------------------------------------|
-| **Ciberseguridad**| Blue Team, Análisis de Logs, Wireshark, SIEM |
-| **Lenguajes**     | Python, Java, JavaScript             |
-| **Discord**       | discord.py, Components V2, Views     |
-| **Datos**         | SQLite, aiosqlite                    |
-| **Otros**         | Pillow, mcstatus, asyncio            |
-
-<br>
-
-### 🎮 Juegos que me gustan
+## 🧰 Stack
 
 <div align="center">
 
-**Favorito**  
+<img src="https://skillicons.dev/icons?i=python,java,js,sqlite,discord,linux,git,github&theme=dark" alt="Skills"/>
+
+</div>
+
+| Área | Tecnologías |
+|---|---|
+| **Ciberseguridad** | Blue Team · Análisis de logs · Wireshark · SIEM |
+| **Lenguajes** | Python · Java · JavaScript |
+| **Discord** | discord.py · Components V2 · Views |
+| **Datos** | SQLite · aiosqlite |
+| **Otros** | Pillow · mcstatus · asyncio |
+
+<div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
+
+## 🎮 Juegos que me gustan
+
+<div align="center">
+
+**Favorito**<br>
 <img src="https://img.shields.io/badge/Cult_of_the_Lamb-E63946?style=for-the-badge&logo=steam&logoColor=white" alt="Cult of the Lamb"/>
 
-**Otros**  
+**Otros**<br>
 <img src="https://img.shields.io/badge/Hollow_Knight-1a1a2e?style=flat-square&logo=steam&logoColor=white" alt="Hollow Knight"/>
 <img src="https://img.shields.io/badge/Silksong-2d1b4e?style=flat-square&logo=steam&logoColor=white" alt="Silksong"/>
 <img src="https://img.shields.io/badge/Celeste-ff6b9d?style=flat-square&logo=steam&logoColor=white" alt="Celeste"/>
@@ -62,31 +75,37 @@ También desarrollo **bots de Discord** para comunidades de Minecraft (tickets, 
 
 </div>
 
-<br>
+<div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
 
-### 📊 Estadísticas
+## 📊 Estadísticas
 
 <div align="center">
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=DiomedesMateo&show_icons=true&theme=tokyonight&hide_border=false&border_radius=15&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d&ring_color=58a6ff"/>
-
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiomedesMateo&layout=compact&langs_count=6&theme=tokyonight&hide_border=false&border_radius=15&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
 
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=false&border_radius=15&background=0d1117&border=30363d&stroke=58a6ff&ring=79c0ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="Streak"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DiomedesMateo&theme=tokyo-night&hide_border=false&area=true&custom_title=Actividad%20de%20contribuciones&bg_color=0d1117&color=58a6ff&line=79c0ff&point=ffffff"/>
+
 </div>
 
-<br>
+### 🐍 Contribuciones
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=false&border_radius=15&background=0d1117&border=30363d&stroke=58a6ff&ring=79c0ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="Streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake-dark.svg"/>
+    <img alt="Snake de contribuciones" src="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake.svg"/>
+  </picture>
 </div>
 
-<br>
+<div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DiomedesMateo&theme=tokyo-night&hide_border=false&area=true&custom_title=Actividad%20de%20contribuciones&bg_color=0d1117&color=58a6ff&line=79c0ff&point=ffffff"/>
-</div>
-
-### 📬 Contacto
+## 📬 Contacto
 
 <div align="center">
   <a href="mailto:diomede6060@gmail.com">
@@ -100,5 +119,5 @@ También desarrollo **bots de Discord** para comunidades de Minecraft (tickets, 
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,100:00d4ff&height=100&section=footer&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:112240,100:00d4ff&height=120&section=footer&animation=fadeIn"/>
 </div>
