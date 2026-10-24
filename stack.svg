@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="Stack">
+  <defs>
+    <clipPath id="frame"><rect width="900" height="160" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="160" fill="#0d0018"/>
+    <text x="40" y="40" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" fill="#00f0ff" font-weight="700">STACK</text>
+    <g font-family="'SF Mono', Consolas, monospace" font-size="14" fill="#e0e0ff">
+      <text x="40" y="75">Python · discord.py · aiosqlite</text>
+      <text x="40" y="100">Wireshark · SIEM · Log analysis</text>
+      <text x="40" y="125">Pillow · mcstatus · asyncio · Components V2</text>
+    </g>
+    <rect x="1" y="1" width="898" height="158" rx="11" fill="none" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1.5"/>
+  </g>
+</svg>
