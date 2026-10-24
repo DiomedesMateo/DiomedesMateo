@@ -97,10 +97,7 @@ También desarrollo **bots de Discord** para comunidades de Minecraft: tickets, 
 ### 🐍 Contribuciones
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake-dark.svg"/>
-    <img alt="Snake de contribuciones" src="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake.svg"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake.svg" alt="Snake de contribuciones"/>
 </div>
 
 <div align="center"><img src="./divider.svg" width="90%" alt=""/></div>
