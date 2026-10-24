@@ -1,60 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Capability coverage">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Skills">
   <defs>
-    <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/>
+    <linearGradient id="barPink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <clipPath id="frame"><rect width="900" height="340" rx="16"/></clipPath>
+    <clipPath id="frame"><rect width="900" height="360" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="900" height="340" fill="#0b1220"/>
-    <rect width="900" height="36" fill="#0f1a2e"/>
-    <text x="24" y="24" font-family="'SF Mono', Consolas, monospace" font-size="12" letter-spacing="2" fill="#94a3b8">CAPABILITY COVERAGE</text>
+    <rect width="900" height="360" fill="#070b14"/>
+    <rect width="900" height="36" fill="#0c1220"/>
+    <text x="24" y="24" font-family="'SF Mono', Consolas, monospace" font-size="12" letter-spacing="2" fill="#64748b">CAPABILITY MATRIX</text>
 
-    <text x="40" y="70" font-family="'SF Mono', Consolas, monospace" font-size="12" fill="#22d3ee">DETECTION &amp; ANALYSIS</text>
-    <text x="480" y="70" font-family="'SF Mono', Consolas, monospace" font-size="12" fill="#34d399">DEVELOPMENT</text>
+    <text x="40" y="70" font-family="'SF Mono', Consolas, monospace" font-size="13" fill="#22d3ee">DETECTION &amp; ANALYSIS</text>
+    <text x="480" y="70" font-family="'SF Mono', Consolas, monospace" font-size="13" fill="#f472b6">DEVELOPMENT</text>
 
-    <!-- Left -->
+    <!-- Left bars -->
     <g font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#e2e8f0">
-      <text x="40" y="105">Log analysis</text><text x="410" y="105" text-anchor="end" fill="#22d3ee" font-size="13">75%</text>
-      <rect x="40" y="112" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="40" y="112" height="8" rx="4" fill="url(#gBlue)"><animate attributeName="width" values="0;277;277" dur="2s" fill="freeze"/></rect>
+      <text x="40" y="105">Log analysis</text><text x="400" y="105" text-anchor="end" fill="#22d3ee" font-size="12">75%</text>
+      <rect x="40" y="112" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="40" y="112" height="10" rx="5" fill="url(#barBlue)"><animate attributeName="width" values="0;270;270" dur="1.8s" fill="freeze"/></rect>
 
-      <text x="40" y="155">Wireshark</text><text x="410" y="155" text-anchor="end" fill="#22d3ee" font-size="13">70%</text>
-      <rect x="40" y="162" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="40" y="162" height="8" rx="4" fill="url(#gBlue)"><animate attributeName="width" values="0;259;259" dur="2.2s" fill="freeze"/></rect>
+      <text x="40" y="155">Wireshark</text><text x="400" y="155" text-anchor="end" fill="#22d3ee" font-size="12">70%</text>
+      <rect x="40" y="162" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="40" y="162" height="10" rx="5" fill="url(#barBlue)"><animate attributeName="width" values="0;252;252" dur="2s" fill="freeze"/></rect>
 
-      <text x="40" y="205">SIEM</text><text x="410" y="205" text-anchor="end" fill="#22d3ee" font-size="13">65%</text>
-      <rect x="40" y="212" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="40" y="212" height="8" rx="4" fill="url(#gBlue)"><animate attributeName="width" values="0;240;240" dur="2.4s" fill="freeze"/></rect>
+      <text x="40" y="205">SIEM</text><text x="400" y="205" text-anchor="end" fill="#22d3ee" font-size="12">65%</text>
+      <rect x="40" y="212" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="40" y="212" height="10" rx="5" fill="url(#barBlue)"><animate attributeName="width" values="0;234;234" dur="2.2s" fill="freeze"/></rect>
 
-      <text x="40" y="255">Incident response</text><text x="410" y="255" text-anchor="end" fill="#22d3ee" font-size="13">60%</text>
-      <rect x="40" y="262" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="40" y="262" height="8" rx="4" fill="url(#gBlue)"><animate attributeName="width" values="0;222;222" dur="2.6s" fill="freeze"/></rect>
+      <text x="40" y="255">Incident response</text><text x="400" y="255" text-anchor="end" fill="#22d3ee" font-size="12">60%</text>
+      <rect x="40" y="262" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="40" y="262" height="10" rx="5" fill="url(#barBlue)"><animate attributeName="width" values="0;216;216" dur="2.4s" fill="freeze"/></rect>
     </g>
 
-    <!-- Right -->
+    <!-- Right bars -->
     <g font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#e2e8f0">
-      <text x="480" y="105">Python</text><text x="850" y="105" text-anchor="end" fill="#34d399" font-size="13">90%</text>
-      <rect x="480" y="112" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="480" y="112" height="8" rx="4" fill="url(#gGreen)"><animate attributeName="width" values="0;333;333" dur="2s" fill="freeze"/></rect>
+      <text x="480" y="105">Python</text><text x="840" y="105" text-anchor="end" fill="#f472b6" font-size="12">90%</text>
+      <rect x="480" y="112" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="480" y="112" height="10" rx="5" fill="url(#barPink)"><animate attributeName="width" values="0;324;324" dur="1.8s" fill="freeze"/></rect>
 
-      <text x="480" y="155">discord.py</text><text x="850" y="155" text-anchor="end" fill="#34d399" font-size="13">85%</text>
-      <rect x="480" y="162" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="480" y="162" height="8" rx="4" fill="url(#gGreen)"><animate attributeName="width" values="0;314;314" dur="2.2s" fill="freeze"/></rect>
+      <text x="480" y="155">discord.py</text><text x="840" y="155" text-anchor="end" fill="#f472b6" font-size="12">85%</text>
+      <rect x="480" y="162" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="480" y="162" height="10" rx="5" fill="url(#barPink)"><animate attributeName="width" values="0;306;306" dur="2s" fill="freeze"/></rect>
 
-      <text x="480" y="205">SQLite · aiosqlite</text><text x="850" y="205" text-anchor="end" fill="#34d399" font-size="13">75%</text>
-      <rect x="480" y="212" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="480" y="212" height="8" rx="4" fill="url(#gGreen)"><animate attributeName="width" values="0;277;277" dur="2.4s" fill="freeze"/></rect>
+      <text x="480" y="205">SQLite · aiosqlite</text><text x="840" y="205" text-anchor="end" fill="#f472b6" font-size="12">75%</text>
+      <rect x="480" y="212" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="480" y="212" height="10" rx="5" fill="url(#barPink)"><animate attributeName="width" values="0;270;270" dur="2.2s" fill="freeze"/></rect>
 
-      <text x="480" y="255">Java · JavaScript</text><text x="850" y="255" text-anchor="end" fill="#34d399" font-size="13">55%</text>
-      <rect x="480" y="262" width="370" height="8" rx="4" fill="#162238"/>
-      <rect x="480" y="262" height="8" rx="4" fill="url(#gGreen)"><animate attributeName="width" values="0;203;203" dur="2.6s" fill="freeze"/></rect>
+      <text x="480" y="255">Java · JavaScript</text><text x="840" y="255" text-anchor="end" fill="#f472b6" font-size="12">55%</text>
+      <rect x="480" y="262" width="360" height="10" rx="5" fill="#162238"/>
+      <rect x="480" y="262" height="10" rx="5" fill="url(#barPink)"><animate attributeName="width" values="0;198;198" dur="2.4s" fill="freeze"/></rect>
     </g>
 
-    <text x="40" y="310" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">TOOLS: asyncio · Pillow · mcstatus · Components V2 · Views</text>
-    <rect x="1" y="1" width="898" height="338" rx="15" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
+    <text x="40" y="320" font-family="'SF Mono', Consolas, monospace" font-size="12" fill="#64748b">TOOLS · asyncio · Pillow · mcstatus · Components V2 · Views</text>
+    <rect x="1" y="1" width="898" height="358" rx="15" fill="none" stroke="#1e293b" stroke-width="1.5"/>
   </g>
 </svg>
