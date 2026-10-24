@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:112240,100:00d4ff&height=220&section=header&text=Diomedes%20Mateo&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Blue%20Team%20Student%20%7C%20SOC%20Mindset%20%7C%20Discord%20Bot%20Dev&descAlignY=58&descSize=20&fontAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0f172a,100:22d3ee&height=240&section=header&text=Diomedes%20Mateo&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=Blue%20Team%20Student%20%7C%20SOC%20Mindset&descAlignY=55&descSize=22&fontAlign=50&stroke=22d3ee&strokeWidth=1"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Detectar%2C+responder+y+proteger+24%2F7;An%C3%A1lisis+de+logs+%7C+Wireshark+%7C+SIEM;Discord+Bot+Developer+%7C+Minecraft+Communities" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=800&color=22D3EE&center=true&vCenter=true&width=650&lines=Detectar+%E2%80%A2+Responder+%E2%80%A2+Proteger+24%2F7;An%C3%A1lisis+de+logs+%7C+Wireshark+%7C+SIEM;Discord+Bot+Developer+%7C+Minecraft" alt="Typing SVG"/>
 </div>
 
 <div align="center">
