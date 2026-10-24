@@ -1,5 +1,8 @@
 # Diomedes Mateo
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
 **Desarrollador de bots de Discord & sistemas para comunidades de Minecraft**
 
 ---
@@ -10,7 +13,7 @@ Me especializo en construir bots de Discord robustos y escalables orientados a c
 
 ### Tecnologías
 
-- **Lenguajes**: Python, JavaScript
+- **Lenguajes**: Python, Java, JavaScript
 - **Discord**: discord.py, slash commands, Components V2, persistent views
 - **Bases de datos**: SQLite (aiosqlite), diseño de esquemas relacionales
 - **Otras**: Pillow (generación de imágenes), mcstatus, asyncio
