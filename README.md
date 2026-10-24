@@ -1,24 +1,24 @@
 <div align="center">
   <a href="#">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=5865F2&section=header" width="100%"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=7B2CBF&section=header" width="100%"/>
   </a>
 </div>
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=5865F2&center=true&vCenter=true&width=500&lines=Hello%2C+I'm+Diomedes+Mateo" alt="Hello, I'm Diomedes Mateo" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&lines=Hello%2C+I'm+Diomedes+Mateo" alt="Hello, I'm Diomedes Mateo" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/DiomedesMateo?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/DiomedesMateo?color=5865F2&labelColor=4752C4&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/DiomedesMateo?color=9D4EDD&labelColor=7B2CBF&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
   </a>
   <a href="#">
-    <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=DiomedesMateo&color=5865F2&style=for-the-badge"/>
+    <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=DiomedesMateo&color=9D4EDD&style=for-the-badge"/>
   </a>
   <a href="https://github.com/DiomedesMateo?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/DiomedesMateo?color=5865F2&style=for-the-badge&labelColor=4752C4&logo=star"/>
+    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/DiomedesMateo?color=9D4EDD&style=for-the-badge&labelColor=7B2CBF&logo=star"/>
   </a>
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=About+Me" alt="About Me" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=About+Me" alt="About Me" />
   </a>
 </div>
 
@@ -44,13 +44,13 @@ class DiomedesMateo:
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=Technologies" alt="Technologies" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=Technologies" alt="Technologies" />
   </a>
 </div>
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=Programming+Languages" alt="Programming Languages" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=Programming+Languages" alt="Programming Languages" />
   </a>
 </div>
 
@@ -68,13 +68,13 @@ class DiomedesMateo:
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=Discord+%26+Tools" alt="Discord & Tools" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=Discord+%26+Tools" alt="Discord & Tools" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://discord.com">
-    <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord.py"/>
+    <img src="https://img.shields.io/badge/Discord.py-7B2CBF?style=for-the-badge&logo=discord&logoColor=white" alt="discord.py"/>
   </a>
   <a href="https://www.sqlite.org">
     <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
@@ -88,23 +88,23 @@ class DiomedesMateo:
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=GitHub+Stats" alt="GitHub Stats" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=GitHub+Stats" alt="GitHub Stats" />
   </a>
 </div>
 
 <div align="center">
   <a href="#">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DiomedesMateo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=5865F2&text_color=00D9FF&icon_color=5865F2"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DiomedesMateo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=9D4EDD&text_color=C77DFF&icon_color=7B2CBF"/>
   </a>
   
   <a href="#">
-    <img height="90em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiomedesMateo&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=5865F2&text_color=00D9FF"/>
+    <img height="90em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiomedesMateo&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=9D4EDD&text_color=C77DFF"/>
   </a>
 </div>
 
 <div align="center">
   <a href="#">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=true&background=00000000&border=5865F2&stroke=5865F2&ring=5865F2&fire=00D9FF&currStreakNum=00D9FF&sideNums=00D9FF&currStreakLabel=5865F2&dates=00D9FF" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=tokyonight&hide_border=true&background=00000000&border=7B2CBF&stroke=9D4EDD&ring=9D4EDD&fire=C77DFF&currStreakNum=C77DFF&sideNums=C77DFF&currStreakLabel=9D4EDD&dates=C77DFF" alt="GitHub Streak" />
   </a>
 </div>
 
@@ -112,13 +112,13 @@ class DiomedesMateo:
 
 <div align="center">
   <a href="#">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=5865F2&center=true&vCenter=true&repeat=false&width=435&lines=Connect+with+Me" alt="Connect with Me" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1&pause=1000&color=9D4EDD&center=true&vCenter=true&repeat=false&width=435&lines=Connect+with+Me" alt="Connect with Me" />
   </a>
 </div>
 
 <div align="center">
   <a href="mailto:diomede6060@gmail.com">
-    <img src="https://img.shields.io/badge/Email-5865F2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-7B2CBF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/DiomedesMateo">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -127,6 +127,6 @@ class DiomedesMateo:
 
 <div align="center">
   <a href="#">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=5865F2&section=footer" width="100%"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=7B2CBF&section=footer" width="100%"/>
   </a>
 </div>
