@@ -1,57 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Diomedes Mateo · Operator">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Expediente de incidente: Diomedes Mateo">
   <defs>
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f472b6"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#22d3ee" stroke-opacity="0.04"/>
-    </pattern>
-    <clipPath id="frame"><rect width="900" height="320" rx="18"/></clipPath>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.045"/></pattern>
+    <radialGradient id="vig" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0f1a2e"/><stop offset="1" stop-color="#0b1220"/></radialGradient>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="900" height="270" rx="16"/></clipPath>
+    
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="900" height="320" fill="#070b14"/>
-    <rect width="900" height="320" fill="url(#grid)"/>
-    <!-- Scan line -->
-    <rect width="900" height="2" fill="#22d3ee" opacity="0.15">
-      <animate attributeName="y" values="0;320" dur="5s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- Decorative circles -->
-    <g transform="translate(760 90)" opacity="0.6">
-      <circle r="70" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="8 6">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="48" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4 8">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="24" fill="#22d3ee" fill-opacity="0.08"/>
+    <rect width="900" height="270" fill="url(#vig)"/><rect width="900" height="270" fill="url(#grid)"/>
+    
+    <path d="M34 54 H170 L184 40 H34 Z" fill="#fbbf24" fill-opacity="0.85"/>
+    <text x="46" y="51" fill="#0b1220" font-size="11" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-weight="700" letter-spacing="3" >CASE FILE</text>
+    <rect x="34" y="54" width="832" height="2" fill="#fbbf24" fill-opacity="0.6"/>
+    <text x="34" y="112" fill="#64748b" font-size="12" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" letter-spacing="3" >INCIDENT RESPONSE · CASE DM-001 · case-dm-001.pcapng</text>
+    <text x="34" y="160" fill="#e2e8f0" font-size="48" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="800" letter-spacing="3" filter="url(#glow)">DIOMEDES MATEO</text>
+    <text x="36" y="192" fill="#94a3b8" font-size="14" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" >Blue Team student · SOC mindset · Discord bot dev</text>
+    <g transform="translate(700 100) rotate(-8)">
+      <rect x="-70" y="-26" width="150" height="52" rx="6" fill="none" stroke="#f43f5e" stroke-width="3" stroke-opacity="0.85"/>
+      <text x="5" y="-2" fill="#f43f5e" font-size="10" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" text-anchor="middle" letter-spacing="4" >STATUS</text>
+      <text x="5" y="18" fill="#f43f5e" font-size="12" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-weight="700" text-anchor="middle" letter-spacing="1" >OPEN · LEARNING</text>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
     </g>
-
-    <!-- Name -->
-    <text x="50" y="130" font-family="'Segoe UI', system-ui, sans-serif" font-size="56" font-weight="800" fill="url(#nameGrad)" filter="url(#glow)">DIOMEDES</text>
-    <text x="50" y="185" font-family="'Segoe UI', system-ui, sans-serif" font-size="56" font-weight="800" fill="url(#nameGrad)" filter="url(#glow)">MATEO</text>
-
-    <text x="50" y="230" font-family="'SF Mono', Consolas, monospace" font-size="15" fill="#94a3b8" letter-spacing="2">BLUE TEAM  ·  SOC MINDSET  ·  DISCORD BOT DEV</text>
-
-    <!-- Status pills -->
-    <g font-family="'SF Mono', Consolas, monospace" font-size="11">
-      <rect x="50" y="255" width="90" height="24" rx="12" fill="#22d3ee" fill-opacity="0.1" stroke="#22d3ee" stroke-opacity="0.5"/>
-      <circle cx="64" cy="267" r="4" fill="#34d399"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
-      <text x="76" y="271" fill="#22d3ee">LIVE</text>
-
-      <rect x="155" y="255" width="110" height="24" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.6"/>
-      <text x="170" y="271" fill="#a78bfa">DEFENSE</text>
-
-      <rect x="280" y="255" width="130" height="24" rx="12" fill="none" stroke="#f472b6" stroke-opacity="0.5"/>
-      <text x="295" y="271" fill="#f472b6">24/7 LEARNING</text>
+    <g>
+      <text x="34" y="224" fill="#64748b" font-size="10" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" letter-spacing="2" >CLASSIFICATION</text><text x="34" y="242" fill="#34d399" font-size="13" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-weight="700" >TLP:CLEAR</text>
+      <text x="220" y="224" fill="#64748b" font-size="10" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" letter-spacing="2" >ANALYST</text><text x="220" y="242" fill="#e2e8f0" font-size="13" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" >Blue Team student</text>
+      <text x="420" y="224" fill="#64748b" font-size="10" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" letter-spacing="2" >SCOPE</text><text x="420" y="242" fill="#e2e8f0" font-size="13" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" >MineOrbit Network</text>
+      <text x="620" y="224" fill="#64748b" font-size="10" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" letter-spacing="2" >PRIORITY</text><text x="620" y="242" fill="#fbbf24" font-size="13" font-family="'SFMono-Regular',ui-monospace,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" >Detect · Respond · Protect</text>
     </g>
-
-    <rect x="1" y="1" width="898" height="318" rx="17" fill="none" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M10 30 V10 H30 M870 10 H890 V30 M890 240 V260 H870 M30 260 H10 V240" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-opacity="0.8"><animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/></path>
+    <rect x="0.75" y="0.75" width="898.5" height="268.5" rx="15.5" fill="none" stroke="#1c2b47" stroke-width="1.5"/>
   </g>
 </svg>
