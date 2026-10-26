@@ -57,20 +57,6 @@ Me gusta construir herramientas prácticas (bots de Discord para administración
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Featured+Projects" alt="Featured Projects" />
-</div>
-
-| Proyecto | Descripción | Tech |
-|----------|-------------|------|
-| [infra-1-vpn-fortigate-fortigate](https://github.com/DiomedesMateo/infra-1-vpn-fortigate-fortigate) | VPN site-to-site entre dos FortiGate | FortiGate, Networking |
-| [infra-2-vpn-fortigate-peer](https://github.com/DiomedesMateo/infra-2-vpn-fortigate-peer) | VPN site-to-site FortiGate ↔ equipo de red | FortiGate, Networking |
-| [Discord-Bot](https://github.com/DiomedesMateo/Discord-Bot) | Bot para administrar comunidades de Discord | Python, discord.py |
-| [Primer-Parcial](https://github.com/DiomedesMateo/Primer-Parcial) | Prácticas y laboratorios académicos | — |
-| [Semana-2-Practica-1-](https://github.com/DiomedesMateo/Semana-2-Practica-1-) | Práctica de infraestructura / redes | — |
-
----
-
-<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Tech+%26+Tools" alt="Tech & Tools" />
 </div>
 
