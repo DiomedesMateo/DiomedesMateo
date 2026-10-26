@@ -33,10 +33,40 @@ class Diomedes:
     name = "Diomedes Mateo"
     role = "Blue Team / SOC Student"
     focus = ["Detección", "Respuesta a incidentes", "Automatización"]
-    stack = ["Python", "discord.py", "Wireshark", "SIEM"]
+    stack = ["Python", "discord.py", "Wireshark", "SIEM", "FortiGate"]
     mindset = "Defense in depth + continuous learning"
     contact = "diomede6060@gmail.com"
 ```
+
+Estudiante orientado a **ciberseguridad ofensiva y defensiva**, con especial interés en **Blue Team**, análisis de tráfico, automatización de tareas de SOC y configuración de infraestructura de red segura (VPN site-to-site con FortiGate).
+
+Me gusta construir herramientas prácticas (bots de Discord para administración de comunidades) y documentar laboratorios de red e incidentes.
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Currently+Focused+On" alt="Currently Focused On" />
+</div>
+
+- 🔍 **Análisis de tráfico** con Wireshark y correlación de eventos
+- 🛡️ **Respuesta a incidentes** siguiendo el ciclo NIST (Preparación → Detección → Contención → Erradicación → Lecciones)
+- 🤖 **Automatización** con Python y bots de Discord
+- 🌐 **Infraestructura de red**: VPNs site-to-site (FortiGate ↔ FortiGate / peer)
+- 📊 Familiarización con conceptos de **SIEM** y monitoreo
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Featured+Projects" alt="Featured Projects" />
+</div>
+
+| Proyecto | Descripción | Tech |
+|----------|-------------|------|
+| [infra-1-vpn-fortigate-fortigate](https://github.com/DiomedesMateo/infra-1-vpn-fortigate-fortigate) | VPN site-to-site entre dos FortiGate | FortiGate, Networking |
+| [infra-2-vpn-fortigate-peer](https://github.com/DiomedesMateo/infra-2-vpn-fortigate-peer) | VPN site-to-site FortiGate ↔ equipo de red | FortiGate, Networking |
+| [Discord-Bot](https://github.com/DiomedesMateo/Discord-Bot) | Bot para administrar comunidades de Discord | Python, discord.py |
+| [Primer-Parcial](https://github.com/DiomedesMateo/Primer-Parcial) | Prácticas y laboratorios académicos | — |
+| [Semana-2-Practica-1-](https://github.com/DiomedesMateo/Semana-2-Practica-1-) | Práctica de infraestructura / redes | — |
 
 ---
 
@@ -44,18 +74,47 @@ class Diomedes:
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Tech+%26+Tools" alt="Tech & Tools" />
 </div>
 
+### Lenguajes & Frameworks
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord.py"/>
+</div>
+
+### Seguridad & Redes
+<div align="center">
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
   <img src="https://img.shields.io/badge/SIEM-a78bfa?style=for-the-badge&logo=splunk&logoColor=0b1220" alt="SIEM"/>
+  <img src="https://img.shields.io/badge/FortiGate-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" alt="FortiGate"/>
   <img src="https://img.shields.io/badge/Blue_Team-FBBF24?style=for-the-badge&logo=shield&logoColor=0F172A" alt="Blue Team"/>
   <img src="https://img.shields.io/badge/SOC-0F172A?style=for-the-badge&logo=security&logoColor=FBBF24" alt="SOC"/>
-  <br/>
+</div>
+
+### Herramientas
+<div align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </div>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1&pause=1000&color=FBBF24&center=true&vCenter=true&repeat=false&width=400&lines=Skills+Map" alt="Skills Map" />
+</div>
+
+```text
+┌─────────────────────┐     ┌─────────────────────┐
+│   Detección         │────▶│   Análisis          │
+│  (Wireshark, logs)  │     │  (correlación SIEM) │
+└─────────────────────┘     └─────────────────────┘
+          │                           │
+          ▼                           ▼
+┌─────────────────────┐     ┌─────────────────────┐
+│   Contención        │────▶│   Automatización    │
+│  (red / endpoints)  │     │  (Python / bots)    │
+└─────────────────────┘     └─────────────────────┘
+```
 
 ---
 
@@ -70,6 +129,15 @@ class Diomedes:
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=DiomedesMateo&theme=dark&hide_border=true&background=00000000&border=FBBF24&stroke=FBBF24&ring=FBBF24&fire=F43F5E&currStreakNum=FBBF24&sideNums=CBD5E1&currStreakLabel=FBBF24&dates=94A3B8" alt="GitHub Streak"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake-dark.svg"/>
+    <img alt="Snake de contribuciones" src="https://raw.githubusercontent.com/DiomedesMateo/DiomedesMateo/output/github-contribution-grid-snake.svg"/>
+  </picture>
 </div>
 
 ---
